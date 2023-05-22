@@ -8,7 +8,7 @@ I have Created this App using HTML, CSS, JS and Bootstrap.
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](/assets/ss.png)
 
 
 
