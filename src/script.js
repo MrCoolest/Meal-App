@@ -90,7 +90,7 @@ const app = function () {
               <h5 class="card-title">${item.strMeal}</h5>
               <p class="card-text">${item.strInstructions.slice(0, 40)}...</p>
               <div class='d-flex flex-row justify-content-between align-items-center'>
-              <a href="./mealDetail.html?mealId=${item.idMeal}" class="btn btn-primary">View</a>
+              <a href="/mealDetail.html?mealId=${item.idMeal}" class="btn btn-primary">View</a>
               <i class="fa-solid fa-heart fa-xl heart-color-white heart-icon ${mealIds.includes(item.idMeal) ? 'heart-icon-active' : ""}" data-fav-meal=${item.idMeal} id=meal_${item.idMeal}></i>
               </div>
             </div>
